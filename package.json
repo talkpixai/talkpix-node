@@ -1,0 +1,46 @@
+{
+  "name": "talkpix",
+  "version": "0.1.0",
+  "description": "Official Node.js client for the TalkPix API: turn one portrait photo and a script or audio clip into a lip-synced talking video.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "talkpix",
+    "talking-photo",
+    "lip-sync",
+    "talking-avatar",
+    "talking-head",
+    "ai-video",
+    "text-to-video",
+    "text-to-speech",
+    "photo-animation",
+    "api-client"
+  ],
+  "homepage": "https://www.talkpix.ai/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talkpixai/talkpix-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/talkpixai/talkpix-node/issues",
+    "email": "support@talkpix.ai"
+  },
+  "author": "TalkPix <support@talkpix.ai> (https://www.talkpix.ai)",
+  "license": "MIT"
+}
